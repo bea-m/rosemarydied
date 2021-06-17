@@ -1,0 +1,75 @@
+div.gallery {
+    margin: 0.6em;
+    border: 2px solid rgb(255, 255, 255);
+    width: 23%;
+    float: left;
+    background-color: rgb(21, 20, 43);
+    color: white;
+}
+  
+div.gallery:hover {
+    border: 2px solid rgb(255, 255, 255);
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+    border: hidden;
+}
+  
+div.desc {
+    padding: 1em;
+    text-align: center;
+}
+
+#mainsec{
+    padding-top: 1.5em;
+    width: 80%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1200px){
+    #mainsec {
+        width: 90%;
+    }
+
+    div.gallery {
+        width: 28%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    div.gallery {
+        width: 43%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    div.gallery {
+        width: 100%;
+    }
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(19, 22, 46);
+}
+body {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+footer {
+    color: aliceblue;
+    padding-bottom: 50px;
+}
+
+nav {
+    background: rgb(15, 15, 15);
+    color: aliceblue;
+}

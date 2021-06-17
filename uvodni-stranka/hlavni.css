@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+
+html {
+    font-family: 'Oswald', sans-serif ;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(19, 22, 46);
+}
+body {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+footer {
+    color: aliceblue;
+    padding-bottom: 50px;
+}
+main {
+    margin: auto;
+    width: 75%;
+    border: 3px solid white;
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+}
+
+nav {
+    background: rgb(15, 15, 15);
+    color: aliceblue;
+}
+
+a {
+    color: rgb(189, 207, 255);
+}
