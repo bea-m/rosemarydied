@@ -73,3 +73,19 @@ nav {
     background: rgb(15, 15, 15);
     color: aliceblue;
 }
+
+.navbar-nav .nav-link {
+    color: aliceblue !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(170, 215, 255) !important;
+}
+
+.navbar-brand {
+color: aliceblue !important;
+}
+
+.navbar-light{
+    background-color: rgb(20, 20, 20) !important;
+}

@@ -33,7 +33,7 @@
       </div>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-white my-2 my-sm-0" type="submit">Search</button>
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
       </form>
     </nav>
 
@@ -43,25 +43,28 @@
     <p>Dosávejte novinky jako první! Pokaždé když se bude něco dít, pošleme Vám email na adresu, kterou uvedete.</p>
     <form>
       <div class="row">
-        <div class="col">
-          <label for="jmeno">Jméno</label>
-          <input type="text" class="form-control" id="jmeno" placeholder="nepovinné">
-        </div>
-        <div class="col">
-          <label for="prijmeni">Příjmení</label>
-          <input type="text" class="form-control" id="prijmeni" placeholder="nepovinné">
+        <div class="col-4 d-flex justify-content-center">
+          <div class="col">
+            <label for="jmeno">Jméno</label>
+            <input type="text" class="form-control" id="jmeno" placeholder="nepovinné">
+          </div>
+          <div class="col">
+            <label for="prijmeni">Příjmení</label>
+            <input type="text" class="form-control" id="prijmeni" placeholder="nepovinné">
+          </div>
         </div>
       </div>
     </form>
-    <form>
-      <div class="form-group">
-        <label for="email">Emailová adresa</label>
-        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-          placeholder="povinné">
-        <small id="emailHelp" class="form-text text-muted">Vaše adresa nebude s nikým sdílena.</small>
-      </div>
+    <div class="col-4 d-flex justify-content-center">
+      <form>
+        <div class="form-group">
+          <label for="email">Emailová adresa</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="povinné">
+          <small id="emailHelp" class="form-text text-muted">Vaše adresa nebude s nikým sdílena.</small>
+        </div>
+    </div>
 
-      <button type="submit" class="btn btn-outline-white">Submit</button>
+    <button type="submit" class="btn btn-outline-light">Submit</button>
     </form>
   </main>
 
